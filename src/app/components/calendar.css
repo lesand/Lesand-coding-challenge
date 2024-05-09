@@ -1,0 +1,112 @@
+.calendar-container {
+  font-family: 'Verdana', sans-serif;
+
+  .fc-col-header-cell {
+    background-color: #3788d8;
+    color: white;
+    text-transform: capitalize;
+  }
+
+  .fc-day-sun .fc-daygrid-day-number,
+  .fc-day-sat .fc-daygrid-day-number {
+    color: #3788d8;
+  }
+
+  .fc-daygrid-day.fc-day-sun,
+  .fc-daygrid-day.fc-day-sat {
+    background-color: #f7f5f5;
+  }
+
+  .fc-daygrid-day {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .fc-event {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-family: 'Verdana', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    cursor: pointer;
+    max-height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 4px;
+    font-size: 0.85em;
+  }
+
+  .fc-day-grid-event .fc-content {
+    padding: 2px 5px;
+  }
+
+  .fc-event {
+    background-color: transparent;
+  }
+
+  .fc .fc-daygrid-day.fc-day-today {
+    background-color: #dcdde1;
+  }
+
+}
+
+.weather-info {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 4px;
+}
+
+.fc-daygrid-day-top {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reminder-item {
+  background-color: #007bff;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.reminder-item:hover {
+  background-color: #0056b3;
+}
+
+.reminder-time-text {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.time {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.text {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+}
+
+.weather-info {
+  width: 90%;
+  text-align: left;
+  padding-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}

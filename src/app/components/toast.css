@@ -1,0 +1,26 @@
+.toast {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    text-align: center;
+    z-index: 1000000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.toast-success {
+    background: #6ea318d9;
+}
+
+.toast-error {
+    background: #cd3c3ceb;
+}
+
+.toast-warning {
+    background: #af7c0deb;
+}
